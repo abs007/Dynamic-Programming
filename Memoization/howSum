@@ -15,3 +15,7 @@ def howSum(tsum,num,memo={}):
     
     memo[tsum]=None
     return memo[tsum]
+
+
+
+#Returns the different ways to compute the target using the numbers in the list.
