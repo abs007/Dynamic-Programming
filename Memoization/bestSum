@@ -17,3 +17,7 @@ def bestSum(tsum,num,memo={}):
                 scom=remc
     memo[tsum]=scom
     return scom
+
+
+
+#Returns the shortest way to compute the target using the numbers in the list
