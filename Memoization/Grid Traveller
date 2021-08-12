@@ -8,3 +8,8 @@ def gridTraveller(m,n,memo={}):
         else:
             memo[key]= gridTraveller(m-1,n,memo) + gridTraveller(m,n-1,memo)
     return memo[key]
+
+
+
+
+#Return the number of ways one can travel from the top-left to the bottom-right in a 2d grid.
