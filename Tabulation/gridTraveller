@@ -11,3 +11,7 @@ def gridTraveller(m,n):
     
     print(table)
     return table[m][n]
+
+
+
+#Return the number of ways one can travel from the top-left to the bottom-right in a 2d grid.
