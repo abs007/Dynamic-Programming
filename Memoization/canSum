@@ -14,3 +14,7 @@ def canSum(m,num,memo={}):
             return True
     memo[m]=False
     return False
+
+
+
+#Returns True if one can sum the target number using the numbers in the list.
