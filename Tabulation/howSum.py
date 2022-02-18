@@ -12,3 +12,5 @@ def howSum(target,num):
                     table[i+n]=c
 
     return table[target] 
+
+#Returns the different ways to compute the target using the numbers in the list.
