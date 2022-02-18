@@ -16,3 +16,5 @@ def bestSum(target,num):
                 
     print(table)
     return table[target] 
+
+#Returns the shortest way to compute the target using the numbers in the list
