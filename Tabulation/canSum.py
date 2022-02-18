@@ -9,3 +9,5 @@ def canSum(target,num):
                     table[i+n]=True
 
     return table[target]
+
+#Returns True if one can sum the target number using the numbers in the list.
