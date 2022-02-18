@@ -14,3 +14,5 @@ def canConstruct(target,words):
 
 
     return table[len(target)]
+
+# Returns True if we can construct the target string using the words/letters in the list.
